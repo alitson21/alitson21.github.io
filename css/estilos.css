@@ -1,0 +1,22 @@
+.header{
+    display: grid;
+    grid-template-columns: auto; 
+    border-bottom: solid 1px gray;
+}
+
+.imagen_personal{
+    margin-bottom: -3px;
+    height: 100%;
+}
+
+.imagen_personal img{
+    position: relative;
+    left: 40%;
+    width: 250px;
+    height: 250px;
+    object-fit: fill;
+    border: slategray solid 1px;
+    border-radius: 4px 4px ;
+    box-shadow: 2px 2px 2px gainsboro;
+}
+
